@@ -728,4 +728,19 @@ footer a {
     .section_pic_container{
         display: none;
     }
+    .bulb{
+        display: flex;
+    }
+}
+.nav_class{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.hamburger_menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }

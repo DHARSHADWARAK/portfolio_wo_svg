@@ -191,3 +191,100 @@ modebtn.addEventListener("click",()=>{
 }
 );
 
+let modebtn1=document.querySelector("#bulb_id");
+let currMode2="light";
+modebtn1.addEventListener("click",()=>{
+    if(currMode2==="light"){
+        currMode2="dark";
+        document.querySelector("body").style.backgroundColor="black";
+        document.querySelector("body").style.color="white";
+        document.querySelector(".title").style.color="white";
+        document.querySelector(".section_text_p1").style.color="rgb(194, 194, 194)";
+        document.querySelector(".section_text_p2").style.color="rgb(194, 194, 194)";
+        document.querySelector(".hamburger_span").style.backgroundColor="white";
+        document.querySelector("#social").style.backgroundColor="white";
+        document.querySelector(".icon_arrow").style.backgroundColor="white";
+        document.querySelector(".icon_arrow").style.borderRadius="50%";
+        document.querySelector(".icon_arrow").style.padding="3px";
+        document.querySelector(".section_text_p3").style.color="rgb(194, 194, 194)";
+        document.querySelector(".details_container").style.border="0.1rem solid white";
+        document.querySelector("#details_container_2").style.border="0.1rem solid white";
+        document.querySelector(".details_container_p1").style.color="rgb(194, 194, 194)";
+        document.querySelector(".details_container_p2").style.color="rgb(194, 194, 194)";
+        document.querySelector(".details_container_p3").style.color="rgb(194, 194, 194)";
+        document.querySelector("#about_arrow").style.borderRadius="50%";
+        document.querySelector("#about_arrow").style.padding="3px";
+        document.querySelector("#about_arrow").style.backgroundColor="white";
+        document.querySelector("#nav_h_1").style.backgroundColor="white";
+        document.querySelector("#nav_h_1").style.color="black";
+        document.querySelector("#nav_h_2").style.backgroundColor="white";
+        document.querySelector("#nav_h_2").style.color="black"; 
+        document.querySelector("#nav_h_3").style.backgroundColor="white";
+        document.querySelector("#nav_h_3").style.color="black";
+        document.querySelector("#nav_h_4").style.backgroundColor="white";
+        document.querySelector("#nav_h_4").style.color="black";
+        document.querySelector("#section_text_p1_id").style.color="rgb(194, 194, 194)";
+        document.querySelector("#skills_arrow").style.borderRadius="50%";
+        document.querySelector("#skills_arrow").style.padding="3px";
+        document.querySelector("#skills_arrow").style.backgroundColor="white";
+        document.querySelector("#html_number").style.color="white";
+        document.querySelector("#cpp_number").style.color="white";
+        document.querySelector("#c_number").style.color="white";
+        document.querySelector("#py_number").style.color="white";
+        document.querySelector("#js_number").style.color="white";
+        document.querySelector("#java_number").style.color="white";
+        document.querySelector("#css_number").style.color="white";
+        document.querySelector("#r_number").style.color="white";
+        document.querySelector("#section_text_p1_id_2").style.color="rgb(194, 194, 194)";
+        document.querySelector("#project_p_id_1").style.color="white";
+        document.querySelector("#project_p_id_2").style.color="white";
+        document.querySelector("#projects_arrow").style.borderRadius="50%";
+        document.querySelector("#projects_arrow").style.padding="3px";
+        document.querySelector("#projects_arrow").style.backgroundColor="white";
+        document.querySelector("#section_text_p1_3").style.color="rgb(194, 194, 194)";
+        document.querySelector("#top_arrow").style.borderRadius="50%";
+        document.querySelector("#top_arrow").style.padding="3px";
+        document.querySelector("#top_arrow").style.backgroundColor="white";
+
+    }
+    else if(currMode2==="dark"){
+        currMode2="light";
+        document.querySelector("body").style.backgroundColor="aliceblue";
+        document.querySelector("body").style.color="black";
+        document.querySelector(".hamburger_icon").style.color="black";
+        document.querySelector(".title").style.color="black";
+        document.querySelector(".section_text_p1").style.color="rgb(50, 54, 54)";
+        document.querySelector(".section_text_p2").style.color="rgb(50, 54, 54)";
+        document.querySelector(".hamburger_span").style.backgroundColor="black";
+        document.querySelector(".section_text_p3").style.color="rgb(50, 54, 54)";
+        document.querySelector(".details_container").style.border="0.1rem solid black";
+        document.querySelector("#details_container_2").style.border="0.1rem solid black";
+        document.querySelector(".details_container_p1").style.color="rgb(50, 54, 54)";
+        document.querySelector(".details_container_p2").style.color="rgb(50, 54, 54)";
+        document.querySelector(".details_container_p3").style.color="rgb(50, 54, 54)";
+        document.querySelector("#nav_h_1").style.backgroundColor="black";
+        document.querySelector("#nav_h_1").style.color="white";
+        document.querySelector("#nav_h_2").style.backgroundColor="black";
+        document.querySelector("#nav_h_2").style.color="white"; 
+        document.querySelector("#nav_h_3").style.backgroundColor="black";
+        document.querySelector("#nav_h_3").style.color="white";
+        document.querySelector("#nav_h_4").style.backgroundColor="black";
+        document.querySelector("#nav_h_4").style.color="white";
+        document.querySelector("#section_text_p1_id").style.color="rgb(50, 54, 54)";
+        document.querySelector("#html_number").style.color="black";
+        document.querySelector("#cpp_number").style.color="black";
+        document.querySelector("#c_number").style.color="black";
+        document.querySelector("#py_number").style.color="black";
+        document.querySelector("#js_number").style.color="black";
+        document.querySelector("#java_number").style.color="black";
+        document.querySelector("#css_number").style.color="black";
+        document.querySelector("#r_number").style.color="black";
+        document.querySelector("#section_text_p1_id_2").style.color="rgb(50, 54, 54)";
+        document.querySelector("#project_p_id_1").style.color="black";
+        document.querySelector("#project_p_id_2").style.color="black";
+        document.querySelector("#section_text_p1_3").style.color="rgb(50, 54, 54)";
+
+    }
+    console.log(currMode2);
+}
+);
