@@ -144,6 +144,9 @@ modebtn.addEventListener("click",()=>{
         document.querySelector("#projects_arrow").style.padding="3px";
         document.querySelector("#projects_arrow").style.backgroundColor="white";
         document.querySelector("#section_text_p1_3").style.color="rgb(194, 194, 194)";
+        document.querySelector("#top_arrow").style.borderRadius="50%";
+        document.querySelector("#top_arrow").style.padding="3px";
+        document.querySelector("#top_arrow").style.backgroundColor="white";
 
     }
     else if(currMode==="dark"){
