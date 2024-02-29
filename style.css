@@ -761,7 +761,23 @@ footer a {
         gap: 1rem;
     }
     #projects_arrow{
-        bottom:1.3rem;
+        bottom:-1rem;
+        right: 2.5rem;
+    }
+    #arrow_profile{
+        bottom:6rem;
+        right: 2.5rem;
+    }
+    #about_arrow{
+        bottom:6rem;
+        right: -1rem;
+    }
+    #skills_arrow{
+        bottom:2rem;
+        right: -1rem;
+    }
+    #top_arrow{
+        bottom: 25rem;
     }
     #project_p_id_1{
         display: none;
