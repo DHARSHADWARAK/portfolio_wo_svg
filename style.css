@@ -246,6 +246,9 @@ a{
 }
 
 /* skills section */
+#instrn_2{
+    display: none;
+}
 .flip_box{
     background-color: transparent;
     width:10rem;
@@ -735,6 +738,12 @@ footer a {
         gap: 1rem;
         display: flex;
         flex-direction: column;
+    }
+    #instrn_2{
+        display:contents;
+    }
+    #instrn_1{
+        display:none;
     }
 }
 .nav_class{
