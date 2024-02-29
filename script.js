@@ -7,7 +7,7 @@ function toggleMenu(){
 let html_number=document.getElementById("html_number");
 let counter_1=0;
 setInterval(()=>{
-    if(counter_1==80){
+    if(counter_1==70){
         clearInterval();
     }
     else{
@@ -19,7 +19,7 @@ setInterval(()=>{
 let css_number=document.getElementById("css_number");
 let counter_2=0;
 setInterval(()=>{
-    if(counter_2==75){
+    if(counter_2==60){
         clearInterval();
     }
     else{
@@ -41,7 +41,7 @@ setInterval(()=>{
 let c_number=document.getElementById("c_number");
 let counter_4=0;
 setInterval(()=>{
-    if(counter_4==80){
+    if(counter_4==70){
         clearInterval();
     }
     else{
@@ -52,7 +52,7 @@ setInterval(()=>{
 let cpp_number=document.getElementById("cpp_number");
 let counter_5=0;
 setInterval(()=>{
-    if(counter_5==90){
+    if(counter_5==75){
         clearInterval();
     }
     else{
@@ -63,7 +63,7 @@ setInterval(()=>{
 let java_number=document.getElementById("java_number");
 let counter_6=0;
 setInterval(()=>{
-    if(counter_6==85){
+    if(counter_6==65){
         clearInterval();
     }
     else{
@@ -85,7 +85,7 @@ setInterval(()=>{
 let r_number=document.getElementById("r_number");
 let counter_8=0;
 setInterval(()=>{
-    if(counter_8==40){
+    if(counter_8==20){
         clearInterval();
     }
     else{
